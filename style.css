@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #515584;
+    min-height: 100vh;
+}
+
+body.animado{
+    transition: background-color 0.5s ease;
+}   
+
+body.manha {
+    background-color: #e2cd9d;
+}
+
+body.tarde {
+    background-color: #b9846f;
+}
+
+body.noite {
+    background-color: #515584;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+}
+
+#msg, #saudacao{
+    text-align: center;
+    padding: 3px;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
